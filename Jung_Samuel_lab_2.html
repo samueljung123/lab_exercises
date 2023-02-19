@@ -1,5 +1,5 @@
 
-
+<link rel="stylesheet" type="text/css" href="Jung_Samuel_lab_2.css">
 <DOCTYPE! html >
 <html lang = "en" >
 <head>
@@ -13,27 +13,33 @@
   }
 </style>
 
+
 <body> 
 
-    <div class="myDiv">
-    <h1> Welcome to Tailor Box Couture </h1>
-    <img src = "Tailor Box Logo.jpg" width = "200" height = "220" >
-    <p> <b> 60 E Hartsdale Ave, Hartsdale, NY 10530 </b> </p>
-    <p> <b> 555-555-5555 </b> </p>
-    <p> <b> Please text or call for appointment </b> </p>
+<table >
+    <div class="myDIV">
+    <div id="header">
+        <h1 class="headingcolor"> Welcome to Tailor Box Couture </h1>
     </div>
+    <img src = "Tailor Box Logo.jpg" width = "200" height = "220" >
+    <p class="specific"> <b class="specific"> 60 E Hartsdale Ave, Hartsdale, NY 10530 </b> </p>
+    <p class="specific"> <b class="specific"> 555-555-5555 </b> </p>
+    <p class="specific"> <b class="specific"> Please text or call for appointment </b> </p>
 
 
-    <p>
+</table>
+
+    <p id="description">
         4.9/5 Star Rated Tailor in Hartsdale, NY with more than 20 years of experience. <br> Honest and Affordable pricing for perfect service jobs. <br> From tapering and hem jobs, to wedding dresses, to even custom making, 
         Tailor Box Couture offers quality craftsmanship in all areas. 
     </p>
     
-    <table>
+    <table >
         <tr>
-            <th> Wedding </th>
-            <th> Suit </th>
-            <th> Prom </th>
+            <th class="font"> Wedding </th>
+            <th class="font"> Suit </th>
+            <th class="font"> Prom </th>
+            <th class="font"> Other </th>
         </tr>
         <tr>
             <th> <img src = "https://lh3.googleusercontent.com/p/AF1QipOZG7fUdvHy9fGwsHW14QfpTsyVi0ugIY7rG8jV=s1360-w1360-h1020" width = "150" height = "150" ></th>
@@ -49,68 +55,53 @@
         </tr>
     </table>
 
-    <p>
+    <p class="color">
         Take a look at what services we offer: <input type="button" value= "Tailor Box Services">
     </p>
 
     <p>
         <hr></hr> <!--this is for line-->
     </p>
-    <p>
-        Name   <input type =“text”>
+    <p class="color">
+        Name  <input type =“text”>
     </p>
-    <p>
+    <p class="color">
         Voice Phone ###-###-### <input type =“text”> (where we can reach you)
     </p>
-    <p>
+    <p class="color">
         What service do you want to get done?   <input type =“text”>
     </p>
-    <p>
-        I just added this so I could have the iframe requirement but the link I want to add doesn't work!
-    </p>
 
-    <iframe src="https://wiki.archlinux.org/" ></iframe>
-    
     <p>
         <hr></hr> <!--this is for line-->
     </p>
 
-    <p>
-        Hours: 
-    </p>
+    <!--is there a way to make this hours part neater?-->
+    <!--I want the hours to not have the "&nbsp" cuz it looks sloppy and i also want it next to the "Contact, Location, Rate Us"-->
 
-    <p>
-                 
-        <b> Wednesday </b> &nbsp 9AM-3:30PM <br>
-        <b> Thursday </b> &nbsp&nbsp&nbsp&nbsp 9AM-3:30PM <br>
-        <b> Friday </b>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 9AM-3:30PM <br>
-        <b> Saturday </b> &nbsp&nbsp&nbsp&nbsp 10AM-3PM <br>
-        <b> Sunday </b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Closed <br>
-        <b> Monday </b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 9AM-3:30PM <br>
-        <b> Tuesday </b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 9AM-3:30PM <br>
-        
-    </p>
 
-    <!-- each "&nbsp" adds one space between words-->
-   
-    </p>
-    <p>
-        <hr></hr> <!--this is for line-->
-    </p>
+<table style="width:100%">
+    <tr>
+        <td id="left-side">
+            <table id="info" style="width:75%">
+                <th class="left">Contact, Location, Rate Us</th>
+                <tr><td>Contact Us: 555-555-5555</td></tr>
+                <tr><td>Location: 60 E Hartsdale Ave, Hartsdale, NY 10530</td></tr>
+                <tr><td>Rate our service: <a href="https://www.yelp.com/biz/tailor-box-hartsdale" > Tailor Box Couture Yelp</a></td></tr>
+            </table>
+        </td>
+        <td id="right-side">
+            <table id="hours" style="width:75%">
+                <th class="left">Hours</th>
+                <tr><td> <b> Monday </b></td> <td> 9AM-3:30PM </td></tr>
+                <tr><td> <b> Tuesday </b></td> <td> 9AM-3:30PM </td></tr>
+                <tr><td> <b> Wednesday </b></td> <td> 9AM-3:30PM </td></tr>
+                <tr><td> <b> Thursday </b></td> <td> 9AM-3:30PM </td></tr>
+                <tr><td> <b> Friday </b></td> <td> 9AM-3:30PM </td></tr>
+                <tr><td> <b> Saturday </b></td> <td> 10AM-3PM </td></tr>
+                <tr><td> <b> Sunday </b></td> <td> Closed (Appt. only)</td></tr>
+            </table>
+        </td>
+    </tr>
+</table>
 
-    <p> 
-        <b>Contact, Location, Rate Us</b>
-    </p>
-    
-    <p>
-        Contact Us: 555-555-5555
-    </p>
-    <p>
-        Location: 60 E Hartsdale Ave, Hartsdale, NY 10530
-    </p>
-    <p>
-        Rate our service: <a href="https://www.yelp.com/biz/tailor-box-hartsdale" > Tailor Box Couture Yelp</a>
-    </p>
-    
-</body>
-</html>
